@@ -72,6 +72,6 @@ public class BattleManager : MonoBehaviour
 
     private void RestartBattle()
     {
-        StartBattle(); // Перезапускаем бой
+        StartBattle(); //Перезапускаем бой.
     }
 }
