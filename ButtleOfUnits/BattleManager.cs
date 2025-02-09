@@ -39,7 +39,7 @@ public class BattleManager : MonoBehaviour
 
     private void EnemyTurn()
     {
-        // Простой ИИ, выбирающий случайное действие
+        // Простейшее ИИ, выбирающий случайное действие
         int action = Random.Range(0, 5); // 5 - количество способностей
 
         switch (action)
